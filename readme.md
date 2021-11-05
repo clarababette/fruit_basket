@@ -1,0 +1,1 @@
+[![Build Status](https://app.travis-ci.com/clarababette/fruit_basket.svg?branch=gh-pages)](https://app.travis-ci.com/clarababette/fruit_basket)

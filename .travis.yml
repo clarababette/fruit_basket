@@ -28,4 +28,4 @@ before_install:
 
 before_script:
   - psql -p 5433 -c 'create database  fruit_tests;' -U postgres
-  - psql -U postgres -d waiter_tests -a -f fruit_database.sql
+  - psql -U postgres -d fruit_tests -a -f fruit_database.sql
