@@ -5,7 +5,7 @@ import FruitBasket from '../fruit_basket.js';
 const Pool = pg.Pool;
 
 const connectionString =
-  process.env.DATABASE_URL || 'postgresql://localhost:5432/fruit_tests';
+  process.env.DATABASE_URL || 'postgresql://localhost:5433/fruit_tests';
 
 const pool = new Pool({
   connectionString,
